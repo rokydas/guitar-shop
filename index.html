@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -23,10 +24,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ml-auto">
-                        <a class="nav-item nav-link active navbar-active" href="#">Home <span
+                        <a class="nav-item nav-link active navbar-active" href="index.html">Home <span
                                 class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link active" href="#">Sign In</a>
-                        <a class="nav-item nav-link active" href="#">Sign Up</a>
+                        <a class="nav-item nav-link active" href="signin.html">Sign In</a>
+                        <a class="nav-item nav-link active" href="signup.html">Sign Up</a>
+                        <a class="nav-item nav-link active" href="cart.html">Cart</a>
                     </div>
                 </div>
             </nav>
@@ -41,6 +43,20 @@
     </header>
     <section class="container">
         <h1 class="guitar-heading">Our Guitars</h1>
+        <hr class="hori-row">
+        <div class="category">
+            <div class="dropdown show">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Choose your Brand
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Brand 1</a>
+                    <a class="dropdown-item" href="#">Brand 2</a>
+                    <a class="dropdown-item" href="#">Brand 3</a>
+                </div>
+            </div>
+        </div>
         <div class="guitar-card">
             <div class="card-deck">
                 <div class="card">
@@ -74,7 +90,7 @@
                             height action.</p>
                     </div>
                     <div class="card-footer">
-                       <button class="custom-button">Add to Cart</button>
+                        <button class="custom-button">Add to Cart</button>
                     </div>
                 </div>
             </div>

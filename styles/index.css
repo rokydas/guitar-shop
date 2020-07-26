@@ -31,7 +31,7 @@ header{
 }
 
 .guitar-card{
-    margin: 100px 0px;
+    margin-bottom: 50px;
 }
 
 .guitar-img{
@@ -62,4 +62,15 @@ header{
     font-family: 'Pacifico', cursive;
     text-align: center;
     margin-top: 50px;
+}
+
+.hori-row{
+    width: 20%;
+    border: 5px solid teal;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.category{
+    margin-bottom: 50px;
 }
