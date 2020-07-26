@@ -1,0 +1,65 @@
+header{
+    background-image: url('/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+}
+
+.navbar-brand img{
+    width: 80px;
+}
+
+.heading{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.heading h1{
+    font-size: 100px;
+    color: teal;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 50px;
+}
+
+.heading h2, .heading h3{
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+}
+
+.navbar-active{
+    border-bottom: 5px solid white;
+}
+
+.guitar-card{
+    margin: 100px 0px;
+}
+
+.guitar-img{
+    height: 300px;
+}
+
+.search-guitar{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    width: 350px;
+    margin-top: 50px;
+}
+
+.heading img{
+    width: 30px;
+}
+
+.custom-button{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.guitar-heading{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    margin-top: 50px;
+}
