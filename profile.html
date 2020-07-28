@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/signin.css">
-    <title>Sign In</title>
+    <link rel="stylesheet" href="styles/profile.css">
+    <title>Profile</title>
 </head>
 
 <body>
@@ -27,10 +27,10 @@
                     <div class="navbar-nav ml-auto">
                         <a class="nav-item nav-link active" href="index.html">Home <span
                                 class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link active navbar-active" href="signin.html">Sign In</a>
+                        <a class="nav-item nav-link active" href="signin.html">Sign In</a>
                         <a class="nav-item nav-link active" href="signup.html">Sign Up</a>
                         <a class="nav-item nav-link active" href="cart.html">Cart</a>
-                        <a class="nav-item nav-link active" href="profile.html">Profile</a>
+                        <a class="nav-item nav-link active navbar-active" href="signin.html">Profile</a>
                     </div>
                 </div>
             </nav>
@@ -40,21 +40,19 @@
                 <h3>Find out your guitar in our website</h3>
             </div>
         </section>
-        <section class="container sign-in-form">
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text">We'll never share your email with anyone
-                        else.</small>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <button type="submit" class="custom-button">Sign In</button>
-            </form>
-            <p>Not registered yet? <a href="signup.html">Sign up</a> here</p>
+        <section class="container profile">
+            <h3>Your Profile</h3>
+            <hr class="hori-row">
+            <div class="profile-pic">
+                <img src="images/profile.png" alt="">
+            </div>
+            <div class="profile-description">
+                <h3>Name: Bruce Washington</h3>
+                <h3>Username: bruce-wash</h3>
+                <h3>Email: bruce@gmail.com</h3>
+                <h3>Mobile Number: 01145987525</h3>
+                <button class="custom-button">Update Profile</button>
+            </div>
         </section>
     </header>
 
